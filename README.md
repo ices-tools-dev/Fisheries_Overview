@@ -16,7 +16,7 @@ source("run.R")
 
 You may want to run this file line by line however.  The process is as follows:
 
-### Dowloading the data
+### Dowloading the data (blob/master/data_00_download.R)
 1. The ICES ecoregion shapefiles are downloaded from the ICES GIS server
 2. Landmass shapefiles are downloaded from openstreetmap
 3. The example data is unzipped from the `ftp` folder
