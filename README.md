@@ -25,10 +25,12 @@ You may want to run this file line by line however.  The process is as follows:
 1. ICES ecoregion is added to the example data
 2. To save space the landmass shapefile is trimmed to the extent of the ICES Ecoregions
 
-### plotting
+### Plotting
 A generic plotting function is use to:
+
 1. subset the data for a particular area and year and (set of) year
 2. a raster is made for a given resolution
 3. this is plotted on top of a basemap showing the european landmass and the 
    relavent ICES ecoregion
 4. A map of each year, and on averaged of years us made and saved to the `plots` folder
+
