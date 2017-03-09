@@ -16,17 +16,18 @@ source("run.R")
 
 You may want to run this file line by line however.  The process is as follows:
 
-### Dowloading the data (blob/master/data_00_download.R)
+### Dowloading the data [data_00_download.R](https://github.com/ices-tools-dev/fishingMaps/blob/master/data_00_download.R)
 1. The ICES ecoregion shapefiles are downloaded from the ICES GIS server
 2. Landmass shapefiles are downloaded from openstreetmap
 3. The example data is unzipped from the `ftp` folder
 
 ### Data setup 
-1. ICES ecoregion is added to the example data
-2. To save space the landmass shapefile is trimmed to the extent of the ICES Ecoregions
+1. To save space the landmass shapefile is trimmed to the extent of the ICES Ecoregions [data_01_shapefile_preparation.R](https://github.com/ices-tools-dev/fishingMaps/blob/master/data_01_shapefile_preparation.R)
+2. ICES ecoregion is added to the example data [data_02_spatial_subsetting.R](https://github.com/ices-tools-dev/fishingMaps/blob/master/data_02_spatial_subsetting.R)
 
-### Plotting
-A generic plotting function is use to:
+
+### Plotting [plots_01_all_plots.R](https://github.com/ices-tools-dev/fishingMaps/blob/master/plots_01_all_plots.R)
+A generic plotting function [plots_00_plotting_functions.R](https://github.com/ices-tools-dev/fishingMaps/blob/master/plots_00_plotting_functions.R) is use to:
 
 1. subset the data for a particular area and year and (set of) year
 2. a raster is made for a given resolution
